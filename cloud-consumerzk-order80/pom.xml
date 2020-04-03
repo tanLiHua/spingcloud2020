@@ -28,7 +28,7 @@
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
-            <version>3.4.6</version>
+            <version>3.4.14</version>
             <!--排除zk自带的slf4j。否则会和springcloud自带的logback冲突，导致启动报错-->
             <exclusions>
                 <exclusion>
